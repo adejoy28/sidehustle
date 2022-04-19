@@ -1,5 +1,5 @@
 import React from "react";
-import passport from './me.png'
+import passport from './../me.png'
 
 function Headlike() {
     return (
