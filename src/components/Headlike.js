@@ -1,10 +1,10 @@
 import React from "react";
-import passport from '.././images/me.png'
+import passport from './me.png'
 
 function Headlike() {
     return (
         <header>
-            <img src={passport} alt="image of john adebayo" />
+            <img src={passport} alt="john adebayo" />
             <div class="profile">
                 <h4 class="">PROFILE</h4>
                 <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam possimus qui, unde
