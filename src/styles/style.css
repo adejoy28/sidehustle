@@ -1,0 +1,204 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.App {
+    width: 800px;
+    height: fit-content;
+    border: #999 1px solid;
+    margin: 0 auto;
+}
+
+header {
+    background: white;
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+header > img {
+    height: 100%;
+    width: 25%;
+    /* border: 1px green solid; */
+    display: inline-block;
+    /* position: absolute; */
+}
+
+header div.profile {
+    display: block;
+    float: right;
+    max-width: 70%;
+    width: 100%;
+    max-height: 40px;
+    padding: 15px 17px;
+}
+
+
+.profile h4 {
+    border-bottom: 2px goldenrod solid;
+    width: fit-content;
+    text-transform: capitalize;
+    font: bold;
+}
+.profile text {
+    text-align: justify;
+    margin: 0;
+}
+
+/* Proffesional title style */
+.prof-title {
+    display: flex;
+    height:70px;
+    background: gold;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    position: relative;
+    /* border: gold 1px solid; */
+}
+
+.prof-title h4 {
+    background-color: black;
+    color: white;
+    width: 30%;
+    margin: 0;
+    padding: 15px 8px 15px 15px;
+    align-self: center;
+    float: left;
+}
+
+.prof-title h2{
+    align-self: center;
+    margin: 0;
+    float: left;
+    font-size: 35px;
+    font-style: 600;
+    margin-left: 5px;
+    padding: 5px 20px;
+}
+/* others */
+
+.others {
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* sidebar styles */
+.side-bar {
+    border: #444 solid 1px;
+    width: 35%;
+    /* text-align: center; */
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 14px;
+}
+
+.side-bar .contact {
+    margin: 0;
+    padding: 10px 10px;
+    background-color: #777;
+    font-size: 16px;
+    
+}
+.side-bar .expertise {
+    margin: 0;
+    padding: 10px 10px;
+    background-color: #444;
+}
+.expertise p {
+    display: flex;
+    align-content: space-between;
+}
+.expertise .bar-border {
+    height: 3px;
+    width: 40px;
+    margin: 0 15px;
+    padding: 0;
+    border: 1px goldenrod solid;
+}
+.expertise .bar-fill {
+    height: 100%;
+    width: 75%;
+    background-color: goldenrod;
+    padding: .4px 40px;
+
+}
+
+.side-bar .education {
+    margin: 0;
+    padding: 10px 10px;
+    background-color: #000;
+}
+.education .sections {
+    padding: 10px 5px;
+}
+.education .sections .with-date {
+    display: flex;
+    align-content: space-between;
+}
+.education .sections .with-date p {
+    margin: 0;
+
+}
+.education .sections .with-date p:first-of-type {
+    width: 100px;
+    margin-right: 10px;    
+}
+
+/* Other side */
+.other-side {
+    background-color: white;
+    padding: 15px 20px;
+    font-size: 15px;
+}
+.other-side h4 {
+    font: 45px 500;
+    width: fit-content;
+    border-bottom: 2px goldenrod solid;
+}
+
+.j-information {
+    padding: 5px 0;
+}
+
+.header {
+    display: flex;
+    align-items: space-between;
+}
+.header p {
+    padding: 0 10px 0 5px;
+    margin: 0;
+    font-weight: bold;
+}
+.job-description {
+    text-align: justify;
+    margin: 5px;
+}
+.j-information ul {
+    margin: 5px 0 15px;
+    padding-left: 30px;
+}
+
+
+/* Refereces section */
+.referee {
+    width: 100%;
+    display: flex;
+    align-content: space-around;
+}
+.referee h3 {
+    font: 45px 500;
+    width: fit-content;
+    border-bottom: 2px goldenrod solid;
+    margin-right: 40px;
+}
+.referee .r-text{
+    padding: 5px 5px 0px 5px;
+}
